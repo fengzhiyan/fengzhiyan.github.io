@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include header.html %}
+  </head>
+  <body id="body-scrollbar">
+    <button id="js-fullscreen">
+      <span id="icon-arrow" class="fontello"></span>
+    </button>
+    <button id="lists">
+      <span id="icon-lists" class="fontello">打开</span>
+    </button>
+    <button id="scroll-top">
+      <span id="icon-arrow-up" class="fontello"></span>
+    </button>
+    {% include nav.html %}
+    <div id="post">
+      <div id="pjax">
+        {{ content }}
+        {% include copyright.html %}
+      </div>
+      <!--遮盖层-->
+      <div id="post__chapters-cover"></div>
+      <!--章节列表-->
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">章节列表</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div>
+    {% include scripts.html %}
+   </body>
+ </html>

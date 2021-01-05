@@ -1,0 +1,72 @@
+encoding: utf-8
+port: 4000
+host: 127.0.0.1
+
+# Site settings
+title: 冯止炎的个人博客
+email: fengyuanus@gmail.com
+
+description: >
+
+# the subpath of your site, e.g. /blog/
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: 
+
+# 插件
+plugins:
+  - jekyll-feed
+
+# Build settings
+# 语法高亮
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# relative_permalinks:true
+# 博文的链接样式
+permalink: /:year-:month-:day-:title.html
+
+# 博客作者相关
+author:
+  name: Zhiyan Feng
+  email: fengyuanus@gmail.com
+  link: 
+  Qzone: 
+  github: fengzhiyan
+  github_username: fengzhiyan
+  github_repositories: https://github.com/fengzhiyan/fengzhiyan.github.io
+  github_subscription: fengzhiyan.github.com
+
+locals:
+  tags: 标签
+  about: 关于
+  active: 技术
+
+# 资源
+favicon: /assets/images/favicon.png
+avatar: /assets/images/avatar.png
+css: /assets/css/
+js: /assets/js/
+font: /assets/font/
+images: /assets/images/
+article: /assets/article/
+pages: /pages/
+gravatar: https://v1.alapi.cn/api/avatar?email=
+
+# 页面
+404: /pages/404.html
+ie: /pages/ie.xml
+# RSS
+rss: /pages/rss.xml
+# 网站地图
+test: /pages/test.html
+# 归档
+archive: /pages/archive.html
+# 链接
+blogroll: /pages/blogroll.html
+# 留言
+message: /pages/message.html

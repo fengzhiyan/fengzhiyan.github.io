@@ -1,0 +1,10 @@
+node_modules
+_site*
+.sass-cache
+.idea
+.DS_Store
+Thumbs.db
+*npm*
+*.lock
+*.log
+.jekyll-cache
