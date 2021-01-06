@@ -3,7 +3,7 @@ port: 4000
 host: 127.0.0.1
 
 # Site settings
-title: 冯止炎的个人博客
+title: 冯源的个人博客
 email: fengyuanus@gmail.com
 
 description: >
@@ -32,7 +32,7 @@ permalink: /:year-:month-:day-:title.html
 
 # 博客作者相关
 author:
-  name: Zhiyan Feng
+  name: Yuan Feng
   email: fengyuanus@gmail.com
   link: 
   Qzone: 
